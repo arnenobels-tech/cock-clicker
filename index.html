@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mijn website</title>
+</head>
+    
+<body>
+    
+
+
+
+
+
+    <div class="game-container">
+
+
+
+        <div class="info">
+            
+            <h2>Cock Clicker</h2>
+            <p>🐔 Cocks Per Click: <span id="cocks_per_click">1</span></p>            
+            <p id="aantal_cocks_per_seconde"> Cocks per seconde: <span id="cocks-per-seconde">0</span></p>
+
+            <div class="total_cocks">
+                <p>💰 Cocks: <span id="demo">...</span></p>
+            </div>
+
+            <button class="click-upgrade" onclick="buyclickupgrade()">
+                <h3>🐔 Click Upgrade</h3>
+                <p>+1 cock per click</p>
+                <p>Prijs:
+                    <span id="click-upgrade-cost">50</span> 💰
+                </p>
+            </button>
+
+
+            <div class="evolution-card">
+                <h3>🧬 Evolution</h3>
+
+                <p>Current stage:</p>
+                <p id="evolution-name">🐣 Chick</p>
+
+                <p>Production multiplier:</p>
+                <p id="evolution-multiplier">x1</p>
+
+                <p>Progress to next evolution:</p>
+                <p id="evolution-progress">0 / 5,000</p>
+
+                <button id="evolution-button" onclick="evolve()">Evolve (5,000 cocks)</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="click-area">
+            <button id="cock-button" onclick="counter()">
+                <img src="foto.jpg" alt="Haan">
+            </button>
+
+        </div>
+
+
+        <div class="shop">
+            <h2>🏪 shop</h2>
+
+            <button class="shop-item-grandma" onclick="buygrandma()">
+                <h3>👵🏽 Grandma</h3>
+                <p>+1 cock per second</p>
+                <p>Owned: <span id="grandma-count">0</span></p>
+                <p>prijs: <span id="grandma_cost">100 💰</span></p>
+            </button>
+
+
+
+
+            <button class="shop-item-factory" onclick="buyfactory()">
+                <h3>🏭 factory</h3>
+                <p>+15 cocks per second</p>
+                <p>Owned: <span id="factory-count">0</span></p>
+                <p>prijs: <span id="factory_cost">1000 💰</span></p>
+            </button>
+
+
+            <button class="shop-item-laboratory" onclick="buylaboratory()">
+                <h3>🧪 laboratory</h3>
+                <p>+100 cocks per second</p>
+                <p>Owned: <span id="laboratory-count">0</span></p>
+                <p>prijs: <span id="laboratory_cost">10000 💰</span></p>
+            </button>
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
