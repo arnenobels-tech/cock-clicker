@@ -63,22 +63,6 @@ The game is still under development. Planned features include:
 * 🎨 Different rooster designs
 * 🏅 Milestones and challenges
 
-## 📚 Why I Made This
-
-I created Cock Clicker while learning web development.
-
-The project is mainly being used to learn and experiment with:
-
-* JavaScript
-* HTML
-* CSS
-* Git
-* GitHub
-* Game logic
-* User interfaces
-* Game balancing
-
-The game will continue to evolve as I learn more.
 
 ## 🤝 Contributing
 
